@@ -1,0 +1,139 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.fontWeight": "500",
+  "editor.fontVariations": true,
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.showFoldingControls": "always",
+  "editor.renderControlCharacters": true,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.scrollBeyondLastLine": true,
+  "editor.tabSize": 4,
+  "editor.wordWrap": "off",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.log": "plaintext",
+    "**/templates/**/*.html": "django-html",
+    "*.html": "html"
+  },
+
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.background": "#008000",
+    "editorIndentGuide.activeBackground": "#ff0000"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.html": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default High Contrast",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+
+  "window.title": "${activeEditorFull}${separator}${rootName}",
+  "autoDocstring.docstringFormat": "google",
+  "autoDocstring.guessTypes": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.python.completionsEnabled": false,
+
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django", "--django-settings-module=DesafioPadel.settings"],
+  "python.linting.pydocstyleEnabled": false,
+  "python.autoComplete.extraPaths": [],
+  "python.linting.pylintCategorySeverity.error": "Hint",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.languageServer": "Pylance",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.rulers": [120],
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false,
+      "source.organizeImports": true
+    }
+  },
+  "python.formatting.provider": "black",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.messageEnabled": false,
+
+  "terminal.integrated.profiles.windows": {
+    "Cmder": {
+      "path": "cmd.exe",
+      "args": ["/k", "C:\\Users\\User\\Google Drive\\Cmder\\vendor\\init.bat"]
+    },
+    "python-repl": {
+      "path": "python",
+      "args": ["-q"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Cmder",
+  "terminal.external.windowsExec": "C:\\Users\\User\\Google Drive\\Cmder\\Cmder.exe",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.env.windows": {},
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "html.format.templating": true,
+  "python.analysis.extraPaths": [],
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.endOfLine": "lf",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/.venv": false,
+    "**/.vscode": true
+  },
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "remote.SSH.remotePlatform": {
+    "pythonanywhere": "linux"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDragAndDrop": false,
+  "python.linting.mypyEnabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.mypyCategorySeverity.error": "Information",
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "editor.formatOnSave": false
+  },
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.alignComments": true,
+  "evenBetterToml.formatter.indentEntries": true,
+  "git.openRepositoryInParentFolders": "never",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"]
+}
