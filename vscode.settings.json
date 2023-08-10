@@ -135,5 +135,6 @@
   "git.openRepositoryInParentFolders": "never",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
-  "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"]
+  "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
+  "files.eol": "\n"
 }
