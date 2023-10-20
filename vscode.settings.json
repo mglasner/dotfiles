@@ -26,8 +26,9 @@
   },
 
   "workbench.colorCustomizations": {
-    "editorIndentGuide.background": "#008000",
-    "editorIndentGuide.activeBackground": "#ff0000"
+    "editorIndentGuide.background1": "#008000",
+    "editorIndentGuide.activeBackground1": "#ff0000",
+    "tree.indentGuidesStroke": "#05ef3c"
   },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook",
@@ -37,6 +38,8 @@
   "workbench.colorTheme": "Default High Contrast",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "left",
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
 
   "window.title": "${activeEditorFull}${separator}${rootName}",
   "autoDocstring.docstringFormat": "google",
@@ -46,7 +49,6 @@
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.python.completionsEnabled": false,
 
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django", "--django-settings-module=DesafioPadel.settings"],
   "python.linting.pydocstyleEnabled": false,
   "python.autoComplete.extraPaths": [],
   "python.linting.pylintCategorySeverity.error": "Hint",
@@ -110,8 +112,7 @@
     "**/.venv": false,
     "**/.vscode": true
   },
-  "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "always",
+
   "liveServer.settings.donotShowInfoMsg": true,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
@@ -136,5 +137,8 @@
   "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
   "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "rainbow_csv.csv_lint_detect_trailing_spaces": true,
+  "redhat.telemetry.enabled": true,
+  "window.zoomLevel": 1
 }
