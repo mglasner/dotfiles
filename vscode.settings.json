@@ -44,27 +44,16 @@
   "window.title": "${activeEditorFull}${separator}${rootName}",
   "autoDocstring.docstringFormat": "google",
   "autoDocstring.guessTypes": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "explorer.confirmDelete": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "vsintellicode.python.completionsEnabled": false,
 
-  "python.linting.pydocstyleEnabled": false,
   "python.autoComplete.extraPaths": [],
-  "python.linting.pylintCategorySeverity.error": "Hint",
-  "python.linting.pylintEnabled": true,
-  "python.linting.enabled": true,
   "python.languageServer": "Pylance",
   "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.rulers": [120],
     "editor.formatOnType": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll": false,
-      "source.organizeImports": true
-    }
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
-  "python.formatting.provider": "black",
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
@@ -100,12 +89,13 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "prettier.endOfLine": "lf",
   "editor.formatOnSave": true,
   "files.exclude": {
     "**/__pycache__": true,
+    "**/.git": false,
     "**/.mypy_cache": true,
     "**/.pytest_cache": true,
     "**/.ruff_cache": true,
@@ -113,19 +103,11 @@
     "**/.vscode": true
   },
 
-  "liveServer.settings.donotShowInfoMsg": true,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "liveServer.settings.donotVerifyTags": true,
-  "remote.SSH.remotePlatform": {
-    "pythonanywhere": "linux"
-  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDragAndDrop": false,
-  "python.linting.mypyEnabled": true,
-  "python.analysis.typeCheckingMode": "basic",
-  "python.linting.mypyCategorySeverity.error": "Information",
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml",
     "editor.formatOnSave": false
@@ -139,6 +121,14 @@
   "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
   "files.eol": "\n",
   "rainbow_csv.csv_lint_detect_trailing_spaces": true,
-  "redhat.telemetry.enabled": true,
-  "window.zoomLevel": 1
+  "pylint.args": ["disable=all"],
+  "editor.mouseWheelZoom": true,
+  "console-ninja.featureSet": "Pro",
+  "sourcery.codeLens": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.largeFileOptimizations": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "evenBetterToml.formatter.columnWidth": 80
 }
